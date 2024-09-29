@@ -1,32 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
+    font-family: 'Vazir', sans-serif;
+    background-color: #f4f4f4;
     color: #333;
 }
 
+h1, h2, h3 {
+    color: #FF5722; /* رنگ نارنجی جذاب */
+}
+
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-main {
+    background: #FFEB3B; /* رنگ زرد شاد */
     padding: 20px;
-}
-
-h1, h2 {
-    margin-top: 0;
-}
-
-footer {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+
+button {
+    background-color: #FF5722; /* رنگ نارنجی برای دکمه‌ها */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E64A19; /* رنگ تیره‌تر در حالت hover */
 }
