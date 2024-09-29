@@ -3,66 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PythonKids</title>
-    <link rel="stylesheet" href="style.css"> <!-- لینک به فایل CSS -->
+    <title>آموزش پایتون برای کودکان و نوجوانان</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>آموزش پایتون برای کودکان و نوجوانان</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">دوره‌ها</a></li>
+                <li><a href="#contact">تماس با ما</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>PythonKids</h1>
-    <nav>
-        <ul>
-            <li><a href="#courses">دوره‌ها</a></li>
-            <li><a href="#contact">تماس با ما</a></li>
-            <li><a href="#payment">پرداخت آنلاین</a></li>
-        </ul>
-    </nav>
-</header>
+    <section id="hero">
+        <h2>به دنیای برنامه‌نویسی خوش آمدید!</h2>
+        <p>دوره‌های آنلاین جذاب برای یادگیری پایتون.</p>
+    </section>
 
-<section id="hero">
-    <h2>آموزش برنامه‌نویسی Python برای کودکان و نوجوانان</h2>
-    <button>همین حالا شروع کنید!</button>
-</section>
+    <section id="courses">
+        <h2>دوره‌های ما</h2>
+        <div class="course">
+            <img src="basic-python.jpg" alt="دوره مقدمات پایتون">
+            <h3>مقدمات پایتون</h3>
+            <p>یادگیری اصول اولیه برنامه‌نویسی پایتون.</p>
+        </div>
+        <div class="course">
+            <img src="game-development.jpg" alt="دوره بازی سازی">
+            <h3>بازی‌سازی</h3>
+            <p>آموزش ساخت بازی‌های جذاب با پایتون.</p>
+        </div>
+        <div class="course">
+            <img src="data-science.jpg" alt="دوره علم داده">
+            <h3>علم داده</h3>
+            <p>یادگیری تحلیل داده‌ها و ایجاد مدل‌های هوش مصنوعی.</p>
+        </div>
+        <div class="course">
+            <img src="ai.jpg" alt="دوره هوش مصنوعی">
+            <h3>هوش مصنوعی</h3>
+            <p>آشنایی با مفاهیم هوش مصنوعی و یادگیری ماشین.</p>
+        </div>
+        <div class="course">
+            <img src="web-design.jpg" alt="دوره طراحی سایت">
+            <h3>طراحی سایت</h3>
+            <p>یادگیری طراحی وب‌سایت با HTML و CSS.</p>
+        </div>
+    </section>
 
-<section id="courses">
-    <h2>دوره‌های ما</h2>
-    <div class="course">
-        <img src="course1.jpg" alt="دوره مقدماتی Python">
-        <h3>دوره مقدماتی Python</h3>
-        <p>آموزش مفاهیم پایه Python به صورت جذاب و ساده.</p>
-        <button>ثبت‌نام</button>
-    </div>
-    <div class="course">
-        <img src="course2.jpg" alt="دوره پیشرفته Python">
-        <h3>دوره پیشرفته Python</h3>
-        <p>پیشرفته‌ترین مفاهیم Python برای نوجوانان.</p>
-        <button>ثبت‌نام</button>
-    </div>
-</section>
+    <section id="contact">
+        <h2>تماس با ما</h2>
+        <form id="contact-form">
+            <label for="name">نام:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">ایمیل:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">شماره تماس:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <input type="submit" value="ارسال">
+        </form>
+    </section>
 
-<section id="contact">
-    <h2>تماس با ما</h2>
-    <form>
-        <input type="text" placeholder="نام شما" required>
-        <input type="email" placeholder="ایمیل شما" required>
-        <input type="tel" placeholder="شماره تماس" required>
-        <textarea placeholder="پیام شما" required></textarea>
-        <button type="submit">ارسال</button>
-    </form>
-</section>
+    <footer>
+        <p>© 2024 تمامی حقوق محفوظ است.</p>
+    </footer>
 
-<section id="payment">
-    <h2>پرداخت آنلاین</h2>
-    <form action="https://YOUR_PAYMENT_GATEWAY_URL" method="POST">
-        <input type="hidden" name="amount" value="COST_OF_COURSE">
-        <button type="submit">پرداخت آنلاین</button>
-    </form>
-</section>
-
-<footer>
-    <p>تمامی حقوق محفوظ است. | پیوندهای اجتماعی: [اینستاگرام] [تلگرام]</p>
-</footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
+
 
