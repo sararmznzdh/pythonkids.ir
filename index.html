@@ -1,38 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python Kids</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>PythonKids</title>
+    <link rel="stylesheet" href="style.css"> <!-- لینک به فایل CSS -->
 </head>
 <body>
-    <header>
-        <h1>Welcome to Python Kids</h1>
-        <p>Learn Python Programming in a Fun Way!</p>
-    </header>
 
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>We teach Python programming to kids and teenagers aged 9 to 18. Join our fun and interactive courses!</p>
-        </section>
+<header>
+    <h1>PythonKids</h1>
+    <nav>
+        <ul>
+            <li><a href="#courses">دوره‌ها</a></li>
+            <li><a href="#contact">تماس با ما</a></li>
+            <li><a href="#payment">پرداخت آنلاین</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <section>
-            <h2>Our Courses</h2>
-            <ul>
-                <li>Beginner Python for Kids</li>
-                <li>Python Game Development</li>
-                <li>Data Science with Python</li>
-            </ul>
-        </section>
-    </main>
+<section id="hero">
+    <h2>آموزش برنامه‌نویسی Python برای کودکان و نوجوانان</h2>
+    <button>همین حالا شروع کنید!</button>
+</section>
 
-    <footer>
-        <p>Contact us at: info@pythonkids.ir</p>
-    </footer>
+<section id="courses">
+    <h2>دوره‌های ما</h2>
+    <div class="course">
+        <img src="course1.jpg" alt="دوره مقدماتی Python">
+        <h3>دوره مقدماتی Python</h3>
+        <p>آموزش مفاهیم پایه Python به صورت جذاب و ساده.</p>
+        <button>ثبت‌نام</button>
+    </div>
+    <div class="course">
+        <img src="course2.jpg" alt="دوره پیشرفته Python">
+        <h3>دوره پیشرفته Python</h3>
+        <p>پیشرفته‌ترین مفاهیم Python برای نوجوانان.</p>
+        <button>ثبت‌نام</button>
+    </div>
+</section>
 
-    <script src="script.js"></script>
+<section id="contact">
+    <h2>تماس با ما</h2>
+    <form>
+        <input type="text" placeholder="نام شما" required>
+        <input type="email" placeholder="ایمیل شما" required>
+        <input type="tel" placeholder="شماره تماس" required>
+        <textarea placeholder="پیام شما" required></textarea>
+        <button type="submit">ارسال</button>
+    </form>
+</section>
+
+<section id="payment">
+    <h2>پرداخت آنلاین</h2>
+    <form action="https://YOUR_PAYMENT_GATEWAY_URL" method="POST">
+        <input type="hidden" name="amount" value="COST_OF_COURSE">
+        <button type="submit">پرداخت آنلاین</button>
+    </form>
+</section>
+
+<footer>
+    <p>تمامی حقوق محفوظ است. | پیوندهای اجتماعی: [اینستاگرام] [تلگرام]</p>
+</footer>
+
 </body>
 </html>
+
