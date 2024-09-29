@@ -1,5 +1,6 @@
-// این فایل برای افزودن انیمیشن یا ویژگی‌های تعاملی به سایت است.
-// به عنوان مثال، افزودن انیمیشن‌های ساده در آینده.
+// Example JavaScript: Display an alert when the page loads
+window.onload = function() {
+    alert("Welcome to PythonKids! Ready to learn some Python?");
+};
 
-console.log("Welcome to Python Kids!"); // این پیام در کنسول مرورگر نمایش داده می‌شود.
 
