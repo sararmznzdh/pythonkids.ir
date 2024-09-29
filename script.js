@@ -1,4 +1,5 @@
-// Example JavaScript: Display an alert when the page loads
-window.onload = function() {
-    alert("Welcome to Python Kids! Ready to learn some Python?");
-};
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("پیام شما ارسال شد!");
+});
+
