@@ -1,5 +1,5 @@
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    alert("پیام شما ارسال شد!");
-});
+// این فایل برای افزودن انیمیشن یا ویژگی‌های تعاملی به سایت است.
+// به عنوان مثال، افزودن انیمیشن‌های ساده در آینده.
+
+console.log("Welcome to Python Kids!"); // این پیام در کنسول مرورگر نمایش داده می‌شود.
 
