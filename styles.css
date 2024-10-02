@@ -1,95 +1,64 @@
 body {
     font-family: Arial, sans-serif;
+    direction: rtl;
     margin: 0;
     padding: 0;
-    direction: rtl;
-    text-align: right;
+    background-color: #f9f9f9;
 }
 
 header {
-    background-color: #0095b6;
+    background-color: #004080;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #006e8b;
-    overflow: hidden;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-}
-
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #005a70;
-}
-
-h1 {
+.header-title {
     font-size: 2.5em;
+    margin: 0;
 }
 
-.btn-primary {
-    background-color: #ffcc00;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
+.subtitle {
     font-size: 1.2em;
-    cursor: pointer;
-    margin-top: 20px;
+    margin: 10px 0;
 }
 
-.courses {
+.introduction {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 1.1em;
+}
+
+.courses-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px;
+    text-align: center;
 }
 
-.course {
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    text-align: center;
-    padding: 10px;
+.course-block {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.course img {
+.course-block img {
     width: 50px;
     margin-bottom: 10px;
 }
 
-.about-us {
-    text-align: center;
-    padding: 20px;
-    background-color: #f8f9fa;
-}
-
-.contact-info {
-    text-align: center;
-    padding: 10px;
-    background-color: #f1f1f1;
-}
-
 footer {
-    background-color: #0095b6;
+    background-color: #004080;
     color: white;
-    padding: 10px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
 }
 
-.text-center {
-    text-align: center;
+.footer-content {
+    margin: 0;
 }
+
