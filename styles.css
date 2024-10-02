@@ -1,16 +1,19 @@
+/* رنگ پس‌زمینه کلی */
 body {
-    background-color: #f0f8ff; /* پس‌زمینه روشن */
+    background-color: #e0f7fa; /* پس‌زمینه آبی روشن */
     font-family: 'Vazirmatn', sans-serif;
 }
 
+/* تغییر رنگ هدر به آبی تیره */
 header {
-    background-color: #306998; /* آبی از لوگوی پایتون */
+    background-color: #1e88e5; /* آبی تیره */
     color: white;
     padding: 20px 0;
 }
 
+/* تغییر رنگ عناوین به زرد */
 h2, h3 {
-    color: #FFD700; /* زرد از لوگوی پایتون */
+    color: #ffd600; /* زرد */
 }
 
 h1 {
@@ -18,35 +21,9 @@ h1 {
     margin: 0;
 }
 
-.logo img {
-    margin-right: 10px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hero {
-    background-color: #FFD700; /* زرد */
-    padding: 40px 0;
-    text-align: center;
-    color: #306998; /* آبی */
-}
-
+/* تغییر رنگ دکمه‌ها */
 .btn {
-    background-color: #306998; /* آبی */
+    background-color: #1e88e5; /* آبی تیره */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -55,30 +32,17 @@ nav ul li a {
 }
 
 .btn:hover {
-    background-color: #FFD700; /* زرد */
-    color: #306998;
+    background-color: #ffd600; /* زرد */
+    color: #1e88e5; /* آبی تیره */
 }
 
+/* تنظیمات مربوط به دوره‌ها */
 .course {
     display: flex;
     align-items: center;
-    background-color: #f0f8ff;
-    border: 2px solid #FFD700;
+    background-color: #e3f2fd; /* آبی روشن‌تر */
+    border: 2px solid #ffd600; /* زرد */
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 15px;
-}
-
-.course-icon {
-    width: 40px; /* عرض آیکون */
-    height: 40px; /* ارتفاع آیکون */
-    margin-right: 15px; /* فاصله بین آیکون و متن */
-}
-
-footer {
-    background-color: #306998;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
 }
