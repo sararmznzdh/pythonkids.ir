@@ -1,35 +1,84 @@
 body {
-    background-color: #f0f8ff; /* رنگ روشن برای پس‌زمینه */
+    background-color: #f0f8ff; /* پس‌زمینه روشن */
     font-family: 'Vazirmatn', sans-serif;
 }
 
 header {
-    background-color: #003366; /* رنگ آبی تیره برای هدر */
-    color: #FFD700; /* رنگ زرد برای متن */
+    background-color: #306998; /* آبی از لوگوی پایتون */
+    color: white;
+    padding: 20px 0;
 }
 
 h2, h3 {
-    color: #FFD700; /* رنگ زرد برای عناوین */
+    color: #FFD700; /* زرد از لوگوی پایتون */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #FFD700; /* زرد */
+    padding: 40px 0;
+    text-align: center;
+    color: #306998; /* آبی */
 }
 
 .btn {
-    background-color: #003366; /* رنگ آبی تیره برای دکمه‌ها */
-    color: #FFD700; /* رنگ زرد برای متن دکمه‌ها */
-    padding: 10px 15px;
-    text-align: center;
+    background-color: #306998; /* آبی */
+    color: white;
+    padding: 10px 20px;
     text-decoration: none;
-    display: inline-block;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #002244; /* تغییر رنگ دکمه هنگام هاور */
+    background-color: #FFD700; /* زرد */
+    color: #306998;
 }
 
 .course {
-    background-color: #f0f8ff; /* رنگ پس‌زمینه برای بخش دوره‌ها */
-    border: 2px solid #FFD700; /* مرز زرد */
+    display: flex;
+    align-items: center;
+    background-color: #f0f8ff;
+    border: 2px solid #FFD700;
     padding: 15px;
-    border-radius: 10px; /* لبه‌های گرد */
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.course-icon {
+    width: 40px; /* عرض آیکون */
+    height: 40px; /* ارتفاع آیکون */
+    margin-right: 15px; /* فاصله بین آیکون و متن */
+}
+
+footer {
+    background-color: #306998;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
 }
