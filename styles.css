@@ -6,6 +6,8 @@ body {
 header {
     background-color: #4CAF50; /* رنگ سبز تیره برای هدر */
     color: white;
+    padding: 10px 0; /* فاصله داخلی */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* سایه برای هدر */
 }
 
 h2, h3 {
@@ -20,11 +22,12 @@ h2, h3 {
     text-decoration: none;
     display: inline-block;
     border-radius: 5px; /* لبه‌های گرد */
-    transition: background-color 0.3s ease; /* انیمیشن نرم */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* انیمیشن نرم */
 }
 
 .btn:hover {
     background-color: #005f6b; /* تغییر رنگ دکمه هنگام هاور */
+    transform: scale(1.05); /* بزرگ‌تر شدن دکمه */
 }
 
 .course {
@@ -32,6 +35,28 @@ h2, h3 {
     border: 2px solid #ff69b4; /* مرز صورتی */
     padding: 15px;
     border-radius: 10px; /* لبه‌های گرد */
+    margin: 10px 0; /* فاصله بین دوره‌ها */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* سایه برای دوره‌ها */
 }
+
+.container {
+    max-width: 1200px; /* حداکثر عرض */
+    margin: 0 auto; /* مرکز قرار دادن */
+    padding: 0 15px; /* فاصله داخلی */
+}
+
+h2 {
+    border-bottom: 2px solid #ff6347; /* خط زیر عنوان */
+    padding-bottom: 10px; /* فاصله زیر عنوان */
+}
+
+.python-what {
+    background-color: #fff8dc; /* رنگ زمینه ملایم */
+    padding: 20px; /* فاصله داخلی */
+    border-radius: 10px; /* لبه‌های گرد */
+    margin: 20px 0; /* فاصله از سایر بخش‌ها */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* سایه برای بخش */
+}
+
 
 
