@@ -2,47 +2,62 @@
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PythonKids.ir</title>
+    <title>PythonKids.ir - آموزش پایتون برای کودکان و نوجوانان</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>به PythonKids خوش آمدید!</h1>
-        <p>آموزش برنامه‌نویسی پایتون به شیوه‌ای سرگرم‌کننده برای کودکان و نوجوانان</p>
+        <h1>آموزش برنامه نویسی پایتون برای کودکان و نوجوانان</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">دوره‌ها</a></li>
+                <li><a href="#about">درباره ما</a></li>
+                <li><a href="#contact">ثبت نام</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="courses">
-        <h2>دوره‌های آموزشی ما</h2>
-        <div class="course-list">
-            <div class="course">
-                <img src="python_icon.png" alt="Python Icon" class="course-icon">
-                <h3>مقدمات پایتون</h3>
-            </div>
-            <div class="course">
-                <img src="game_icon.png" alt="Game Icon" class="course-icon">
-                <h3>بازی‌سازی با پایتون</h3>
-            </div>
-            <div class="course">
-                <img src="data_icon.png" alt="Data Icon" class="course-icon">
-                <h3>علم داده با پایتون</h3>
-            </div>
-            <div class="course">
-                <img src="ai_icon.png" alt="AI Icon" class="course-icon">
-                <h3>هوش مصنوعی با پایتون</h3>
-            </div>
-            <div class="course">
-                <img src="web_icon.png" alt="Web Icon" class="course-icon">
-                <h3>طراحی وب با پایتون</h3>
-            </div>
+    <section id="courses">
+        <h2>دوره‌های آموزشی</h2>
+        <div class="course">
+            <h3>پایتون مقدمات اول</h3>
+            <p>این دوره به شما اصول اولیه پایتون را آموزش می‌دهد.</p>
         </div>
+        <div class="course">
+            <h3>پایتون و بازی‌سازی (Pygame)</h3>
+            <p>ایجاد بازی‌های ساده با استفاده از پایتون و Pygame.</p>
+        </div>
+        <!-- Add more courses as needed -->
+    </section>
+
+    <section id="about">
+        <h2>درباره ما</h2>
+        <p>PythonKids.ir برای آموزش برنامه‌نویسی به کودکان و نوجوانان تأسیس شده است. ما به دانش‌آموزان کمک می‌کنیم که به صورت آنلاین برنامه نویسی پایتون را یاد بگیرند.</p>
+    </section>
+
+    <section id="contact">
+        <h2>ثبت نام</h2>
+        <form>
+            <label for="name">نام:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">ایمیل:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="course">انتخاب دوره:</label>
+            <select id="course" name="course">
+                <option value="intro">پایتون مقدماتی</option>
+                <option value="pygame">پایتون و بازی‌سازی</option>
+                <!-- Add more courses -->
+            </select>
+            
+            <button type="submit">ثبت نام</button>
+        </form>
     </section>
 
     <footer>
-        <p>برای تماس با ما: Ramezanzadeh.sanaz@gmail.com | تلفن: (+98) 9122931687</p>
+        <p>© 2024 PythonKids.ir - تمامی حقوق محفوظ است.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
