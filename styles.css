@@ -1,68 +1,35 @@
 body {
-    background-color: #f0f8ff; /* پس‌زمینه روشن */
+    background-color: #f0f8ff; /* رنگ روشن برای پس‌زمینه */
     font-family: 'Vazirmatn', sans-serif;
-    direction: rtl; /* جهت متن به راست */
-    text-align: right; /* تراز متن به راست */
 }
 
 header {
-    background-color: #4CAF50; /* رنگ سبز تیره برای هدر */
-    color: white;
-    padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* سایه برای هدر */
+    background-color: #003366; /* رنگ آبی تیره برای هدر */
+    color: #FFD700; /* رنگ زرد برای متن */
 }
 
 h2, h3 {
-    color: #ff6347; /* رنگ قرمز گوجه‌ای برای عنوان‌ها */
-    margin: 10px 0; /* فاصله بالا و پایین */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* سایه متن */
+    color: #FFD700; /* رنگ زرد برای عناوین */
 }
 
 .btn {
-    background-color: #008CBA; /* رنگ آبی برای دکمه‌ها */
-    color: white;
+    background-color: #003366; /* رنگ آبی تیره برای دکمه‌ها */
+    color: #FFD700; /* رنگ زرد برای متن دکمه‌ها */
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 5px; /* لبه‌های گرد */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* انیمیشن نرم */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #005f6b; /* تغییر رنگ دکمه هنگام هاور */
-    transform: scale(1.05); /* بزرگ‌تر شدن دکمه */
+    background-color: #002244; /* تغییر رنگ دکمه هنگام هاور */
 }
 
 .course {
-    background-color: #ffe4e1; /* رنگ پس‌زمینه ملایم برای هر دوره */
-    border: 2px solid #ff69b4; /* مرز صورتی */
+    background-color: #f0f8ff; /* رنگ پس‌زمینه برای بخش دوره‌ها */
+    border: 2px solid #FFD700; /* مرز زرد */
     padding: 15px;
     border-radius: 10px; /* لبه‌های گرد */
-    margin: 10px 0; /* فاصله بین دوره‌ها */
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* سایه برای دوره‌ها */
-}
-
-.container {
-    max-width: 1200px; /* حداکثر عرض */
-    margin: 0 auto; /* مرکز قرار دادن */
-    padding: 0 15px; /* فاصله داخلی */
-}
-
-.python-what {
-    background-color: #fff3e0; /* رنگ زمینه ملایم */
-    padding: 20px; /* فاصله داخلی */
-    border-radius: 10px; /* لبه‌های گرد */
-    margin: 20px 0; /* فاصله از سایر بخش‌ها */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* سایه برای بخش */
-}
-
-footer {
-    background-color: #4CAF50; /* رنگ سبز تیره برای فوتر */
-    color: white;
-    text-align: center;
-    padding: 10px 0; /* فاصله داخلی */
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
