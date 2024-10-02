@@ -1,136 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    background-color: #f0f8ff; /* پس‌زمینه روشن */
     font-family: 'Vazirmatn', sans-serif;
-    direction: rtl;
-    background-color: #f4f7f6;
-    color: #333;
-}
-
-.container {
-    width: 85%;
-    margin: 0 auto;
 }
 
 header {
-    background-color: #00b894;
-    padding: 20px 0;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
+    background-color: #4CAF50; /* رنگ سبز تیره برای هدر */
     color: white;
-    font-size: 24px;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-}
-
-header nav ul li {
-    margin-left: 20px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.hero {
-    background: linear-gradient(rgba(0, 184, 148, 0.8), rgba(0, 184, 148, 0.8)), url('hero.jpg') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.hero h2 {
-    font-size: 36px;
-}
-
-.hero p {
-    font-size: 20px;
+h2, h3 {
+    color: #ff6347; /* رنگ قرمز گوجه‌ای برای عنوان‌ها */
 }
 
 .btn {
-    background-color: #fdcb6e;
+    background-color: #008CBA; /* رنگ آبی برای دکمه‌ها */
     color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-.courses {
-    padding: 50px 0;
-}
-
-.courses h2 {
+    padding: 10px 15px;
     text-align: center;
-    margin-bottom: 40px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px; /* لبه‌های گرد */
+    transition: background-color 0.3s ease; /* انیمیشن نرم */
 }
 
-.course-list {
-    display: flex;
-    justify-content: space-around;
+.btn:hover {
+    background-color: #005f6b; /* تغییر رنگ دکمه هنگام هاور */
 }
 
 .course {
-    background-color: #dfe6e9;
-    padding: 20px;
-    border-radius: 10px;
-    width: 30%;
-    text-align: center;
-}
-
-.about, .contact {
-    padding: 50px 0;
-    text-align: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 0 auto;
-}
-
-input, textarea {
+    background-color: #ffe4e1; /* رنگ پس‌زمینه ملایم برای هر دوره */
+    border: 2px solid #ff69b4; /* مرز صورتی */
     padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border-radius: 10px; /* لبه‌های گرد */
 }
 
-button {
-    background-color: #00b894;
-    color: white;
-    padding: 15px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-footer {
-    background-color: #00b894;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    width: 100%;
-}
 
