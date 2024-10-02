@@ -124,6 +124,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 footer {
     background-color: #00b894;
     color: white;
@@ -132,3 +133,4 @@ footer {
     position: relative;
     width: 100%;
 }
+
