@@ -136,11 +136,11 @@ footer {
 }
 
 h2, h3, p, ul {
-    margin-bottom: 20px; /* مقدار را به دلخواه تغییر دهید */
+    margin-bottom: 30px; /* مقدار را به دلخواه تغییر دهید */
 }
 
 ul {
-    padding-left: 20px; /* فاصله سمت چپ برای لیست */
+    padding-left: 30px; /* فاصله سمت چپ برای لیست */
 }
 
 
