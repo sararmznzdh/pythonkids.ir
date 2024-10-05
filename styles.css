@@ -135,3 +135,12 @@ footer {
     width: 100%;
 }
 
+h2, h3, p, ul {
+    margin-bottom: 20px; /* مقدار را به دلخواه تغییر دهید */
+}
+
+ul {
+    padding-left: 20px; /* فاصله سمت چپ برای لیست */
+}
+
+
