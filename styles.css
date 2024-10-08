@@ -143,4 +143,15 @@ ul {
     padding-left: 20px; /* فاصله سمت چپ برای لیست */
 }
 
+.course {
+    display: flex;
+    align-items: center; /* برای وسط‌چین کردن عمودی */
+    margin-bottom: 20px; /* فاصله بین دوره‌ها */
+}
+
+.course-image {
+    margin-right: 15px; /* فاصله بین تصویر و متن */
+}
+
+
 
